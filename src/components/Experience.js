@@ -167,9 +167,9 @@ const Experience = () => {
         <Timeline>
           <Card>
             <h4>Intern - React Developer</h4>
-            <h5>Alpha Paradox • Nov 2024 – April 2025</h5>
+            <h5>Alpha Paradox • May 2025 – July 2025</h5>
             <p>
-              Contributed to major frontend projects using React, Styled Components, and UI libraries. Led internal training sessions for freshers and school students on modern development tools and best practices.
+              Contributed to key frontend projects using React, Styled Components, and modern UI libraries, focusing on clean, responsive, and accessible user interfaces. Collaborated closely with design and backend teams to deliver seamless user experiences.
             </p>
           </Card>
 

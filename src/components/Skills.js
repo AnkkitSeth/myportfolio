@@ -14,6 +14,7 @@ import python from "../assets/python.svg";
 import html from "../assets/html.svg";
 import css from "../assets/css.svg";
 import javascript from "../assets/javascript.svg";
+import springboot from "../assets/springboot.svg";
 import mysql from "../assets/mysql.svg";
 import react from "../assets/react.svg";
 import nodejs from "../assets/nodejs.svg";
@@ -171,7 +172,7 @@ const BrandImg = styled.img`
 `;
 
 const Skills = () => {
-  const logos = [c, java, python, html, css, javascript, mysql, react, nodejs, mongodb];
+  const logos = [c, java, python, html, css, javascript,springboot, mysql, react, nodejs, mongodb];
 
   return (
     <Wrapper>
@@ -200,6 +201,7 @@ const Skills = () => {
             <h3>Backend</h3>
             <IconRow>
               <SkillIcon src={nodejs} alt="Node.js" />
+              <SkillIcon src={springboot} alt="SpringBoot" />
               <SkillIcon src={mysql} alt="MySQL" />
               <SkillIcon src={mongodb} alt="MongoDB" />
             </IconRow>

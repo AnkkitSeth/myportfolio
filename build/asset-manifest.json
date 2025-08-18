@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e7c0b41a.css",
-    "main.js": "/Portfolio/static/js/main.c61ea20c.js",
+    "main.js": "/Portfolio/static/js/main.3d06022a.js",
+    "static/media/CloudNest.jpg": "/Portfolio/static/media/CloudNest.8b84c3ff0e9c8edd95d4.jpg",
     "static/media/Earn_img.webp": "/Portfolio/static/media/Earn_img.f3c413eb7ef9363246c8.webp",
     "static/media/RiseHub_img.webp": "/Portfolio/static/media/RiseHub_img.d3866bbba1935ab092fe.webp",
     "static/media/Ecommerce_img.webp": "/Portfolio/static/media/Ecommerce_img.c016ae1df15c28d984da.webp",
     "static/media/profilepic.webp": "/Portfolio/static/media/profilepic.1829a34baf182167156c.webp",
     "static/media/AnkkitPic2.webp": "/Portfolio/static/media/AnkkitPic2.eb2b6ecaf204b4e5fde3.webp",
     "static/media/Chat_img.webp": "/Portfolio/static/media/Chat_img.3631f2fe06ea5d4a83d0.webp",
-    "static/media/ANKKITSETH.pdf": "/Portfolio/static/media/ANKKITSETH.568dd286e98f849919d0.pdf",
+    "static/media/ANKKITSETH.pdf": "/Portfolio/static/media/ANKKITSETH.64f33d750d32d24d6a26.pdf",
     "static/media/handshake.png": "/Portfolio/static/media/handshake.16928ad1195176ef36fa.png",
     "static/media/mysql.svg": "/Portfolio/static/media/mysql.5dbd7ffb56a921cecde426cca82f0df4.svg",
     "static/media/nodejs.svg": "/Portfolio/static/media/nodejs.9b464a9aee62c52faeebf257f69cad74.svg",
@@ -22,10 +23,10 @@
     "static/media/css.svg": "/Portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/Portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.e7c0b41a.css.map": "/Portfolio/static/css/main.e7c0b41a.css.map",
-    "main.c61ea20c.js.map": "/Portfolio/static/js/main.c61ea20c.js.map"
+    "main.3d06022a.js.map": "/Portfolio/static/js/main.3d06022a.js.map"
   },
   "entrypoints": [
     "static/css/main.e7c0b41a.css",
-    "static/js/main.c61ea20c.js"
+    "static/js/main.3d06022a.js"
   ]
 }

@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-import { AiFillWechat } from "react-icons/ai";
+import { RiMotorbikeFill } from "react-icons/ri";
 import { TiCloudStorageOutline } from "react-icons/ti";
 import { IoRocket } from "react-icons/io5";
+import { MdGroups2 } from "react-icons/md";
 import { FaSackDollar, FaCartShopping } from "react-icons/fa6";
-import ChatPic from '../assets/Chat_img.webp';
-import Ecommerce from '../assets/Ecommerce_img.webp';
+import { BsFillJournalBookmarkFill } from "react-icons/bs";
+import Bike from '../assets/Bike_img.jpg';
+import Emp from '../assets/Employee.jpg';
+import Journal from '../assets/Journal_img.jpg';
 import RiseHub from '../assets/RiseHub_img.webp';
 import Earn from '../assets/Earn_img.webp';
 import cloudnest from '../assets/CloudNest.jpg';
@@ -125,7 +128,7 @@ const Card = styled.div`
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* dark overlay */
+    background: rgba(0, 0, 0, 0.7);
     z-index: 0;
     border-radius: 30px;
   }
@@ -221,6 +224,16 @@ export default function Projects() {
         {/* Full Stack Projects */}
         <SectionTitle>Full Stack Projects</SectionTitle>
         <CardsRow>
+          <Card bg={Bike}>
+            <Icon><RiMotorbikeFill /></Icon>
+            <h3>BitGears</h3>
+            <p>BitGears is a bike rental platform with secure login, real-time booking, and role-based dashboards for students and owners.</p>
+            <small>Tech: React, Express.js, Node.js, MongoDB, JWT</small>
+            <ButtonsBox>
+              <ButtonGithub href="https://github.com/AnkkitSeth/bitgears" target="_blank">GitHub</ButtonGithub>
+              <ButtonLiveDemo href="https://bitgears.onrender.com/" target="_blank">Live Demo</ButtonLiveDemo>
+            </ButtonsBox>
+          </Card>
 
           <Card bg={cloudnest}>
             <Icon><TiCloudStorageOutline /></Icon>
@@ -232,26 +245,18 @@ export default function Projects() {
               <ButtonLiveDemo href="https://cloudnest-xdc5.onrender.com" target="_blank">Live Demo</ButtonLiveDemo>
             </ButtonsBox>
           </Card>
+        </CardsRow>
 
-          <Card bg={ChatPic}>
-            <Icon><AiFillWechat /></Icon>
-            <h3>ChatMate</h3>
-            <p>Real-time chat app using WebSockets for fast, live messaging.</p>
-            <small>Tech: React, Node.js, Express, Socket.io</small>
+        {/* Backend Projects */}
+        <SectionTitle>Backend Projects</SectionTitle>
+        <CardsRow>
+          <Card bg={Journal}>
+            <Icon><BsFillJournalBookmarkFill /></Icon>
+            <h3>Journal App</h3>
+            <p>A Spring Boot + MongoDB REST API that lets users manage personal journals with authentication and CRUD operations.</p>
+            <small>Tech: Spring Boot, MongoDB, REST API</small>
             <ButtonsBox>
-              <ButtonGithub href="https://github.com/AnkkitSeth/chatmate" target="_blank">GitHub</ButtonGithub>
-              <ButtonLiveDemo href="#" target="_blank">Live Demo</ButtonLiveDemo>
-            </ButtonsBox>
-          </Card>
-
-          <Card bg={Ecommerce}>
-            <Icon><FaCartShopping /></Icon>
-            <h3>MyShop</h3>
-            <p>User-friendly eCommerce platform offering smooth product browsing and checkout.</p>
-            <small>Tech: HTML, CSS, JavaScript</small>
-            <ButtonsBox>
-              <ButtonGithub href="https://github.com/AnkkitSeth/myshop" target="_blank">GitHub</ButtonGithub>
-              <ButtonLiveDemo href="#" target="_blank">Live Demo</ButtonLiveDemo>
+              <ButtonGithub href="https://github.com/AnkkitSeth/journalApp" target="_blank">GitHub</ButtonGithub>
             </ButtonsBox>
           </Card>
         </CardsRow>
@@ -278,6 +283,20 @@ export default function Projects() {
             <ButtonsBox>
               <ButtonGithub href="https://github.com/AnkkitSeth/earnmanagement" target="_blank">GitHub</ButtonGithub>
               <ButtonLiveDemo href="https://ankkitseth.github.io/earnmanagement/" target="_blank">Live Demo</ButtonLiveDemo>
+            </ButtonsBox>
+          </Card>
+        </CardsRow>
+
+        {/* Core Programming & OOP Projects */}
+        <SectionTitle>Core Programming & OOP Projects</SectionTitle>
+        <CardsRow>
+          <Card bg={Emp}>
+            <Icon><MdGroups2 /></Icon>
+            <h3>Employee Payroll System</h3>
+            <p>A Java console-based application built to apply OOP concepts like inheritance, encapsulation, and abstraction for employee data and salary computation.</p>
+            <small>Tech: Java, OOP, Console I/O</small>
+            <ButtonsBox>
+              <ButtonGithub href="https://github.com/AnkkitSeth/employee-payroll-system" target="_blank">GitHub</ButtonGithub>
             </ButtonsBox>
           </Card>
         </CardsRow>
