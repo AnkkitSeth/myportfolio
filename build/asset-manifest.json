@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e7c0b41a.css",
-    "main.js": "/static/js/main.334ecb85.js",
+    "main.js": "/static/js/main.d28b71f6.js",
     "static/media/Journal_img.jpg": "/static/media/Journal_img.8007461029c195ae5020.jpg",
     "static/media/Employee.jpg": "/static/media/Employee.1212daea9c810e53309e.jpg",
     "static/media/Bike_img.jpg": "/static/media/Bike_img.09d1a745c5c4e41c9dc3.jpg",
@@ -10,7 +10,7 @@
     "static/media/RiseHub_img.webp": "/static/media/RiseHub_img.d3866bbba1935ab092fe.webp",
     "static/media/profilepic.webp": "/static/media/profilepic.1829a34baf182167156c.webp",
     "static/media/AnkkitPic2.webp": "/static/media/AnkkitPic2.eb2b6ecaf204b4e5fde3.webp",
-    "static/media/ANKKITSETH.pdf": "/static/media/ANKKITSETH.4371eaf8f9826c8e2622.pdf",
+    "static/media/ANKKITSETH.pdf": "/static/media/ANKKITSETH.4efbbec8dd4de917897d.pdf",
     "static/media/handshake.png": "/static/media/handshake.16928ad1195176ef36fa.png",
     "static/media/springboot.svg": "/static/media/springboot.7a53d53f1184b0d17fd79d9d6019be56.svg",
     "static/media/mysql.svg": "/static/media/mysql.5dbd7ffb56a921cecde426cca82f0df4.svg",
@@ -25,10 +25,10 @@
     "static/media/css.svg": "/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.e7c0b41a.css.map": "/static/css/main.e7c0b41a.css.map",
-    "main.334ecb85.js.map": "/static/js/main.334ecb85.js.map"
+    "main.d28b71f6.js.map": "/static/js/main.d28b71f6.js.map"
   },
   "entrypoints": [
     "static/css/main.e7c0b41a.css",
-    "static/js/main.334ecb85.js"
+    "static/js/main.d28b71f6.js"
   ]
 }
