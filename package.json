@@ -2,7 +2,7 @@
   "name": "Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AnkkitSeth.github.io/Portfolio",
+  "homepage": "https://ankkit.site/",
   "dependencies": {
     "bootstrap-icons": "^1.11.3",
     "cra-template": "1.2.0",
