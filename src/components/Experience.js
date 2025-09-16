@@ -167,7 +167,7 @@ const Experience = () => {
         <Timeline>
           <Card>
             <h4>Intern - React Developer</h4>
-            <h5>Alpha Paradox • May 2025 – July 2025</h5>
+            <h5>Paradox Alpha • May 2025 – July 2025</h5>
             <p>
               Contributed to key frontend projects using React, Styled Components, and modern UI libraries, focusing on clean, responsive, and accessible user interfaces. Collaborated closely with design and backend teams to deliver seamless user experiences.
             </p>
